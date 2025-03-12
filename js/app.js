@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(".date").before(times);
 
     //春节倒计时
-    var starttime = new Date("2022/12/15");
+    var starttime = new Date("2025/12/15");
     setInterval(function () {
         var nowtime = new Date();
         var time = starttime - nowtime;
