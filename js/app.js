@@ -28,7 +28,7 @@ $(document).ready(function(){
         var seconds = parseInt(time / 1000 % 60);
         
         var syday = "<span>" + hour + "</span>" + "小时" + "<span>" + minute + "</span>" + "分钟" + "<span class='Lose'>" + seconds + "</span>" + "秒";
-        $('.time').html("<p>2023雪季倒计时</p>" + "<p><span>" + day + "</span>" + "天</p>");
+        $('.time').html("<p>2025雪季倒计时</p>" + "<p><span>" + day + "</span>" + "天</p>");
         $(".sydate").html(syday);
         
     }, 1000);
@@ -125,7 +125,7 @@ $(document).ready(function(){
     });
 
 
-    var mess = "<span>没想到新年马上就要到了</span><span class='B-span2'>祝你我新年快乐！</span><span>你好2023新的一年。</span>";
+    var mess = "<span>没想到新年马上就要到了</span><span class='B-span2'>祝你我新年快乐！</span><span>你好2025新的一年。</span>";
     $(".Barrage").append(mess);
 
     $(".buts").click(function(){
@@ -208,8 +208,8 @@ $(document).ready(function(){
         wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
             
             wx.updateAppMessageShareData({ 
-                title: 'Hello, 2023 happy skiing', // 分享标题
-                desc: '你好, 2023, 雪季倒计时, 一大波弹幕正在来袭！！', // 分享描述
+                title: 'Hello, 2025 happy skiing', // 分享标题
+                desc: '你好, 2025, 雪季倒计时, 一大波弹幕正在来袭！！', // 分享描述
                 imgUrl: 'https://www.shuhaisc.com/Clock/images/time.jpg', // 分享图标
                 success: function () {
                     // alert("分享成功!");
@@ -217,7 +217,7 @@ $(document).ready(function(){
             });
 
             wx.updateTimelineShareData({ 
-                title: 'Hello, 2023 happy skiing', // 分享标题
+                title: 'Hello, 2025 happy skiing', // 分享标题
                 imgUrl: 'https://www.shuhaisc.com/Clock/images/time.jpg', // 分享图标
                 success: function () {
                     // alert("分享成功!");
